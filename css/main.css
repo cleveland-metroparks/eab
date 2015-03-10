@@ -686,3 +686,42 @@ textarea#message {
   #map-section .box {
 	background-color:#f3f3f3;
   }
+  
+  	.map-links {
+	padding-bottom:10px;
+	padding-top:10px;
+	}
+	
+	.map-links img {
+	border:2px solid #c4c4c4;
+	}
+	.map-links img:hover {
+	border:2px solid #006A52;
+	}
+	
+	#popup-table {
+	text-align:center;
+	font-size:10px;
+	}
+	
+	#popup-table tr td {
+	width:33%;
+	}
+	
+	#popup-table p {
+	font-size:12px;
+	font-weight:bold;
+	line-height:75%;
+	}
+	
+	.grey-row {
+	background-color:rgb(220,220,220);
+	}
+	
+	#legend-image {
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	z-index:9999;
+	border:2px solid rgb(200,200,200);
+	}
