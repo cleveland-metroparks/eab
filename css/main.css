@@ -691,11 +691,38 @@ textarea#message {
 	padding-bottom:10px;
 	padding-top:10px;
 	}
+
+	#ash-mapping-results {
+  background-image: url(../images/ash_map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 125px 0;
+  color: #fff;
+
+  }
+  
+  	#restoration-map {
+  background-image: url(../images/place-holder.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 125px 0;
+  color: #fff;
+
+  }
+  
+  	#timeline-map {
+  background-image: url(../images/eab_timeline1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 125px 0;
+  color: #fff;
+
+  }
 	
-	.map-links img {
+	.map-links {
 	border:2px solid #c4c4c4;
 	}
-	.map-links img:hover {
+	.map-links:hover {
 	border:2px solid #006A52;
 	}
 	
@@ -724,4 +751,9 @@ textarea#message {
 	left:5px;
 	z-index:9999;
 	border:2px solid rgb(200,200,200);
+	}
+	
+	#popupbox h2{
+	display:inline-block;
+	width:50%;
 	}
